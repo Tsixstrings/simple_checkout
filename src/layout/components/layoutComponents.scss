@@ -1,0 +1,41 @@
+.layoutWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  // align-items: stretch;
+}
+.header {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: gray;
+  color: white;
+  font-size: 6vh;
+  max-height: 20vh;
+}
+.bodyBox {
+  flex: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: gray;
+  color: white;
+}
+.alignRight{
+  display: block;
+  padding: 0 1rem 0 1rem;
+  align-items: end;
+  justify-content: end;
+  text-align: right;
+}

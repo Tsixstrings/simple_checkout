@@ -1,0 +1,46 @@
+.checkoutWrapper {
+  width: 100%;
+  height: auto;
+  // min-height: 25vh;
+  margin: 3vh;
+  padding: 3vh;
+  text-align: left;
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .box {
+    margin-top: 1.5vw;
+    padding: 0 1vw 0 1vw;
+  }
+  .totalBox {
+    font-weight: bold;
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-end;
+    justify-content: end;
+    border: 2px solid gray;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+  }
+  .promoChip {
+    font-size: 0.6rem !important;
+    font-weight: bold;
+  }
+  .checkoutLineCard {
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .smallText {
+    font-size: 0.8rem;
+  }
+  .largeText {
+    font-size: 1.5rem;
+  }
+  .xLargeText {
+    font-size: 2rem;
+  }
+  .textRight {
+    text-align: right;
+  }
+}
